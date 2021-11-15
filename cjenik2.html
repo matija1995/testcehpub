@@ -68,7 +68,6 @@
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Crni Kozel točeni 0,5l </p>
-            <p>0,4l pive i 0,1l pivske pjene</p>
             <p>15kn</p>
           </div>
         </div>
@@ -77,7 +76,7 @@
         <div class="col-lg-4 col-md-6 col-6">
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
-            <p>Kozel točeni 0,3l </p>
+            <button type="button" class="btn btn-dark" data-toggle="popover" data-placement="bottom" data-content="0,2l pive i 0,1l pivske pjene">Kozel točeni 0.3l</button>
             <p>15kn</p>
           </div>
 
@@ -91,7 +90,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-6">
           <div class="okvirslike">
-            <img src="image/piva.png" alt="piva" class="slikica">
+            <a href="crnikozel.html"><img src="image/piva.png" alt="piva" class="slikica"></a>
             <p>Crni Kozel točeni 0,3l </p>
             <p>15kn</p>
           </div>
@@ -102,6 +101,7 @@
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Rezano 0,5l </p>
             <p>15kn</p>
+            <button type="button" class="btn btn-danger btn-sm" data-toggle="popover" data-placement="bottom" data-content="0,4l pive i 0,1l pivske pjene">normativ</button>
           </div>
 
         </div>
@@ -140,7 +140,7 @@
 
         <div class="col-lg-4 col-md-6 col-6">
           <div class="okvirslike">
-            <img src="image/piva.png" alt="piva" class="slikica">
+            <img src="image/piva.png" alt="piva" class="slikica" onclick="bronhi()">
             <p>Bronhi 0,5l </p>
             <p>20kn</p>
           </div>
@@ -164,6 +164,12 @@
     var popoverList = popoverTriggerList.map(function(popoverTrigger) {
       return new bootstrap.Popover(popoverTrigger);
     });
+    function bronhi(){
+      var w=window.open();
+      w.document.open();
+      w.document.write("0,4l pive i absint");
+      w.document.close();
+    }
   </script>
 </body>
 
