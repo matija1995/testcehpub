@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  background: #222;
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 10px;
+
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+header{
+  background-color: #000;
+  z-index: 1;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+
+}
+
+.logo{
+  float: left;
+  padding: 5px 0;
+}
+
+
+
+
+header nav{
+  float: right;
+}
+
+header nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav li{
+  display: inline-block;
+  margin-left: 10px;
+  padding-top: 25px;
+
+}
+
+header nav a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+header nav a:hover{
+  background-color: #333;
+  border-radius: 50%;
+
+
+}
+
+.navcjenik{
+  text-align: justify;
+}
+.navcjenik ul{
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+}
+
+.navcjenik ul li{
+  display: inline-block;
+  padding-right: 15px;
+
+}
+
+
+.naslovna{
+  width: 100%;
+
+}
+h1{
+  text-align: center;
+}
+section{
+  padding: 20px 0;
+}
+
+.onama{
+  background-color: #55d6aa;
+
+}
+.onama p{
+  text-align: justify;
+  padding: 20px 0;
+}
+.onama iframe{
+
+  width: 100%
+
+}
+.ponuda img{
+  width: 100%;
+}
+
+.kontakt{
+  padding: 20px 0;
+  background-color: #55d6aa;
+}
+.kontakt iframe{
+  width: 100%;
+}
+
+.slikica{
+  width: 100%;
+  border-radius: 10%;
+  padding-bottom: 10px;
+}
+
+.okvirslike{
+  /* outline: 1px solid #1C7947;
+  border-radius: 10%; */
+  padding: 5px;
+  margin: 5px;
+}
+
+
+
+footer a{
+
+  margin-left: 15px;
+
+
+}
+footer{
+  padding: 20px 0;
+}
+
+.normativi{
+  font-size: 8px;
+
+}
