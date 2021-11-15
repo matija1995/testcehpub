@@ -148,3 +148,33 @@ footer{
   font-size: 8px;
 
 }
+
+div.scrollmenu {
+
+  overflow: auto;
+  white-space: nowrap;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+}
