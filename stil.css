@@ -3,7 +3,7 @@ body{
   background: #222;
   color: #fff;
   font-family: 'Roboto Mono', monospace;
-  
+
 
 }
 
@@ -153,6 +153,7 @@ div.scrollmenu {
 
   overflow: auto;
   white-space: nowrap;
+  text-align: center;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -168,6 +169,16 @@ div.scrollmenu a {
 
 div.scrollmenu a:hover {
   background-color: #777;
+  transition: background-color .5s;
+
+}
+
+h2{
+  text-align: center;
+}
+
+.specijaliteti{
+  font-size: 0.5rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -180,4 +191,6 @@ div.scrollmenu a:hover {
   .logo1{
     width: 50%;
   }
+
+
 }
