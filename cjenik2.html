@@ -22,25 +22,26 @@
 <body>
 
 
-  <header>
+  <header id="navbar">
     <div class="container">
 
       <a href="index.html"><img src="image/ceh-pub.png" alt="ceh-logo" class="logo1"></a>
 
 
     </div>
+    <div class="scrollmenu">
+      <a href="#"><i class="fas fa-beer"> </i> Točeno pivo</a>
+      <a href="vino.html"><i class="fas fa-wine-glass-alt"></i> Vino</a>
+      <a href="alkoholnapica.html"><i class="fas fa-cocktail"></i> Jaka alkoholna pića</a>
+      <a href="toplinapitci.html"><i class="fas fa-coffee"> </i> Topli napitci</a>
+      <a href="bezalkoholnapica.html"><i class="fas fa-glass-whiskey"></i> Bezalkoholna pića</a>
+
+
+    </div>
   </header>
 
   <section>
-    <div class="scrollmenu">
-      <a href="">Točeno pivo</a>
-      <a href="">Vino</a>
-      <a href="">Jaka alkoholna pića</a>
-      <a href="">Topli napitci</a>
-      <a href="">Bezalkoholna pića</a>
-      <a href="">Maloprodajni artikli</a>
-
-    </div>
+    <br><br><br><br>
     <div class="container">
 
 
@@ -48,7 +49,7 @@
       <div class="row">
         <div class="col-12">
           <br>
-          <h2>Vrste točenih piva</h2>
+          <h2 id="pivo">Vrste točenih piva</h2>
           <br>
 
         </div>
@@ -74,7 +75,7 @@
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Kozel Premium Lager 0,5l </p>
-              <button type="button" class="btn btn-danger" data-toggle="popover" data-placement="bottom" data-content="krigla 0,5l, 0,45l pive i 0,15l pivske pjene">15 kn</button>
+            <button type="button" class="btn btn-danger" data-toggle="popover" data-placement="bottom" data-content="krigla 0,5l, 0,45l pive i 0,15l pivske pjene">15 kn</button>
           </div>
         </div>
 
@@ -91,7 +92,7 @@
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Kozel Dark 0,5l </p>
-              <button type="button" class="btn btn-danger" data-toggle="popover" data-placement="bottom" data-content="krigla 0,5l, 0,45l pive i 0,15l pivske pjene">15 kn</button>
+            <button type="button" class="btn btn-danger" data-toggle="popover" data-placement="bottom" data-content="krigla 0,5l, 0,45l pive i 0,15l pivske pjene">15 kn</button>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-6">
@@ -187,7 +188,7 @@
 
         <div class="col-lg-4 col-md-6 col-6">
           <div class="okvirslike">
-            <img src="image/piva.png" alt="piva" class="slikica" >
+            <img src="image/piva.png" alt="piva" class="slikica">
             <p>Slama 0,5l </p>
             <p class="specijaliteti">pivo po želji gosta i rum Stroh 80</p>
             <button type="button" class="btn btn-danger" data-toggle="popover" data-placement="bottom" data-content="krigla 0,5l, 0,45l pive i čaša Stroh 20ml">20kn</button>
@@ -256,28 +257,28 @@
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Liker Pelinkovac 2/4cl </p>
-            <button type="button" class="btn btn-danger" >8/12kn</button>
+            <button type="button" class="btn btn-danger">8/12kn</button>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-6">
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Liker Pelinkovac 4cl </p>
-            <button type="button" class="btn btn-danger" >12kn</button>
+            <button type="button" class="btn btn-danger">12kn</button>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-6">
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Liker Mentol 2cl</p>
-            <button type="button" class="btn btn-danger" >8kn</button>
+            <button type="button" class="btn btn-danger">8kn</button>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-6">
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Liker Mentol 4cl</p>
-            <button type="button" class="btn btn-danger" >12kn</button>
+            <button type="button" class="btn btn-danger">12kn</button>
           </div>
         </div>
 
@@ -285,14 +286,14 @@
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Liker Lavov 2cl</p>
-            <button type="button" class="btn btn-danger" >8kn</button>
+            <button type="button" class="btn btn-danger">8kn</button>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-6">
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Liker Lavov 4cl</p>
-            <button type="button" class="btn btn-danger" >12kn</button>
+            <button type="button" class="btn btn-danger">12kn</button>
           </div>
         </div>
 
@@ -300,27 +301,178 @@
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Liker Amaro 2cl</p>
-            <button type="button" class="btn btn-danger" >8kn</button>
+            <button type="button" class="btn btn-danger">8kn</button>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-6">
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
             <p>Liker Amaro 4cl</p>
-            <button type="button" class="btn btn-danger" >12kn</button>
+            <button type="button" class="btn btn-danger">12kn</button>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 col-6">
           <div class="okvirslike">
             <img src="image/piva.png" alt="piva" class="slikica">
-            <p>Čochtan 0,6l </p>
-            <p>17kn</p>
+            <p>Liker Medica 2cl</p>
+            <button type="button" class="btn btn-danger">10kn</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Liker Medica 4cl</p>
+            <button type="button" class="btn btn-danger">20kn</button>
           </div>
         </div>
 
       </div>
 
+
+      <br>
+      <h2>Topli napitci</h2>
+      <br>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Čaj razne sorte</p>
+            <button type="button" class="btn btn-danger">10kn</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Med</p>
+            <button type="button" class="btn btn-danger">2kn</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Kava espresso</p>
+            <button type="button" class="btn btn-danger">5kn</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Kava mala s mlijekom</p>
+            <button type="button" class="btn btn-danger">7kn</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Kava velika s mlijekom</p>
+            <button type="button" class="btn btn-danger">8kn</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Kava bijela</p>
+            <button type="button" class="btn btn-danger">9kn</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Kava cappuccino</p>
+            <button type="button" class="btn btn-danger">9kn</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Nescafe Gold</p>
+            <button type="button" class="btn btn-danger">14kn</button>
+          </div>
+        </div>
+
+      </div>
+
+      <br>
+      <h2>Bezalkoholna pića</h2>
+      <br>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Cockta Original 0,275l </p>
+            <button type="button" class="btn btn-danger">14kn</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Pipi naranča 0,25l</p>
+            <button type="button" class="btn btn-danger">14kn</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Inka tonic Water 0,25l</p>
+            <button type="button" class="btn btn-danger">14kn</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Nara  0,25l</p>
+            <button type="button" class="btn btn-danger">14kn</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Cedevita okus naranča  0,25l</p>
+            <button type="button" class="btn btn-danger">14kn</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Radenska gazirana 0,1l</p>
+            <button type="button" class="btn btn-danger">5kn</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Radenska gazirana 0,2l</p>
+            <button type="button" class="btn btn-danger">8kn</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Radenska gazirana 0,3l</p>
+            <button type="button" class="btn btn-danger">10kn</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-6">
+          <div class="okvirslike">
+            <img src="image/piva.png" alt="piva" class="slikica">
+            <p>Radenska gazirana 1l</p>
+            <button type="button" class="btn btn-danger">20kn</button>
+          </div>
+        </div>
+
+      </div>
 
 
 
@@ -354,6 +506,20 @@
       w.document.write("0,4l pive i absint");
       w.document.close();
     }*/
+    window.onscroll = function() {
+      myFunction()
+    };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
   </script>
 </body>
 
