@@ -41,7 +41,11 @@ header::after{
   padding: 5px 0;
 }
 
-
+.logo1{
+  width: 20%;
+  padding: 10px 0;
+  clear: both;
+}
 
 
 header nav{
@@ -226,7 +230,7 @@ h2{
   }
 
 
-  
+
 
 	.navigacija a {
 		display: block;
