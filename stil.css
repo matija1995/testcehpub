@@ -136,10 +136,29 @@ section{
   padding: 5px;
   margin: 5px;
   position: relative;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.okvirslike p{
+  min-height: 5rem;
+}
+
+button{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 
+.izaberijezik{
+  position: absolute;
+  right: 1rem;
+  top: 3rem;
 
+}
 
 
 footer a{
@@ -155,6 +174,11 @@ footer{
   float: right;
   font-size: 0.8rem;
   padding-right: 15px;
+}
+
+.gumbic{
+  position: relative;
+  bottom: 0;
 }
 
 
