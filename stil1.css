@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  background: #222;
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+
+
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+header{
+  background-color: #000;
+  z-index: 1;
+
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+
+}
+
+.logo{
+
+  padding: 5px 0;
+}
+
+.logo1{
+  width: 20%;
+  padding: 10px 0;
+  clear: both;
+}
+
+.video{
+  text-align: center;
+  padding-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+
+
+
+  }
+  .container1{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  .logo{
+    width: 50%;
+    padding: 10px 0;
+    clear: both;
+  }
+  .logo1{
+    width: 50%;
+    padding: 10px 0;
+    clear: both;
+  }
+}
